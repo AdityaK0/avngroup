@@ -4,6 +4,7 @@ import About from "./components/about"
 import Contact from "./components/contact"
 import Header from "./components/header"
 import Footer from "./components/footer"
+import FabricShowcase from "./components/fabric-showcase"
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Showcase />
+      <FabricShowcase />
       <About />
       <Contact />
       <Footer />

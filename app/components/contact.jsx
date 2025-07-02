@@ -18,15 +18,17 @@ export default function Contact() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-blue-600" />
-                  <span className="text-gray-700">hello@threadcraft.com</span>
+                  <span className="text-gray-700">avnunifroms26@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-blue-600" />
-                  <span className="text-gray-700">+1 (555) 123-4567</span>
+                  <span className="text-gray-700">+91 75677 44321, +91 79846 79362</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-blue-600" />
-                  <span className="text-gray-700">123 Design Street, Creative City, CC 12345</span>
+                  <span className="text-gray-700">
+                    SHOP NO. 8 LAXMI NAGAR COMPLEX, Nr. KOMAL WORLDWIDE, SHAHWADI, NAROL, AHMEDABAD-382405
+                  </span>
                 </div>
               </div>
 
@@ -36,7 +38,10 @@ export default function Contact() {
                   <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
                     <Instagram className="w-6 h-6" />
                   </a>
-                  <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+                  <a
+                    href="https://www.facebook.com/avnunifroms"
+                    className="text-gray-600 hover:text-blue-600 transition-colors"
+                  >
                     <Facebook className="w-6 h-6" />
                   </a>
                   <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
@@ -82,10 +87,12 @@ export default function Contact() {
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
                   >
                     <option value="">Select project type</option>
-                    <option value="single">Single Design</option>
-                    <option value="bulk">Bulk Order</option>
-                    <option value="corporate">Corporate Branding</option>
-                    <option value="event">Event Merchandise</option>
+                    <option value="corporate">Corporate Uniforms</option>
+                    <option value="hotel">Hotel Uniforms</option>
+                    <option value="hospital">Hospital Uniforms</option>
+                    <option value="school">School Uniforms</option>
+                    <option value="security">Security Uniforms</option>
+                    <option value="housekeeping">Housekeeping Uniforms</option>
                   </select>
                 </div>
                 <div>

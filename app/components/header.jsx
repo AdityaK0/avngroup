@@ -10,7 +10,7 @@ export default function Header() {
     <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-gray-900">ThreadCraft</div>
+          <div className="text-2xl font-bold text-gray-900">AVN Uniforms</div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">

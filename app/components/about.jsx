@@ -4,23 +4,23 @@ export default function About() {
   const skills = [
     {
       icon: <Palette className="w-8 h-8 text-blue-600" />,
-      title: "Creative Design",
-      description: "Original artwork and innovative design concepts tailored to your vision",
+      title: "Custom Manufacturing",
+      description: "Tailored uniform solutions for various industries and requirements",
     },
     {
       icon: <Users className="w-8 h-8 text-blue-600" />,
-      title: "Client Collaboration",
-      description: "Working closely with clients to bring their ideas to life",
+      title: "Wholesale Supply",
+      description: "Bulk orders and wholesale distribution across different sectors",
     },
     {
       icon: <Award className="w-8 h-8 text-blue-600" />,
-      title: "Quality Craftsmanship",
-      description: "Premium materials and printing techniques for lasting results",
+      title: "Quality Fabrics",
+      description: "Premium fabric options from 180GSM to 240GSM for durability",
     },
     {
       icon: <Clock className="w-8 h-8 text-blue-600" />,
-      title: "Fast Turnaround",
-      description: "Efficient workflow ensuring timely delivery without compromising quality",
+      title: "Timely Delivery",
+      description: "Efficient production and delivery for bulk uniform orders",
     },
   ]
 
@@ -29,10 +29,12 @@ export default function About() {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">About ThreadCraft</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">About AVN Uniforms</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're passionate about transforming ideas into wearable art. With years of experience in custom apparel
-              design, we specialize in creating unique t-shirts that make a statement.
+              We are a distinguished manufacturer and wholesaler of a wide collection of Corporate Uniforms, Customized
+              T-shirt Uniforms, Hotel Uniforms, Hospital Uniforms, School Uniforms, Housekeeping Uniforms and Security
+              Uniforms. With years of experience in the uniform industry, we provide high-quality apparels that meet
+              professional standards.
             </p>
           </div>
 
